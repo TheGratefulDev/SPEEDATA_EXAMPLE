@@ -175,7 +175,7 @@ public class LockedActivity extends Activity {
         setUserRestriction(UserManager.DISALLOW_SAFE_BOOT, active);
         setUserRestriction(UserManager.DISALLOW_FACTORY_RESET, active);
         setUserRestriction(UserManager.DISALLOW_ADD_USER, active);
-        setUserRestriction(UserManager.DISALLOW_MOUNT_PHYSICAL_MEDIA, active);
+      //  setUserRestriction(UserManager.DISALLOW_MOUNT_PHYSICAL_MEDIA, active);
         setUserRestriction(UserManager.DISALLOW_ADJUST_VOLUME, active);
 
         // disable keyguard and status bar
